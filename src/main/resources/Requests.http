@@ -1,0 +1,59 @@
+### POST REQUEST : new character in the game
+POST http://localhost:2000/game/characters
+Content-Type: application/json
+
+{
+  "name": "Goku",
+  "team": "Saiyan",
+  "powerLevel": 200000,
+  "attackType": "SPECIAL"
+}
+
+### PUT REQUEST: change type of attack
+@id = variable value
+PUT http://localhost:2000/game/characters/2/attack-type
+Content-Type: application/json
+
+{
+  "attackType": "MAGIC"
+}
+
+### GET REQUEST : Attack of a character
+GET http://localhost:2000/game/characters/3/attack
+
+### POST REQUEST: new order to delivery
+POST localhost:2000/orders
+Content-Type: application/json
+
+{
+  "customerName": "Luis Vazquez",
+  "address": "Grazbachgasse 71",
+  "orderValue": 22.22,
+  "deliveryType": "EXPRESS"
+}
+
+### PUT REQUEST: Update type of an existent delivery
+PUT http://localhost:2000/orders/3/delivery-type
+Content-Type: application/json
+
+{
+  "deliveryType": "CAR"
+}
+
+### GET REQUEST: send the message(result) when the delivery is done
+GET http://localhost:2000/orders/4/delivery-info
+
+### GET: Globale Einstellung liefert
+GET localhost:2000/settings
+
+### PUT: Ändert die globalen Einstellungen
+PUT http://localhost:2000/settings
+Content-Type: application/json
+
+{
+  "volume": 80,
+  "language": "EN",
+  "difficult": "HARD"
+}
+
+###

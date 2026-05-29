@@ -1,0 +1,22 @@
+[
+  {
+    "customerName": "Alex Kim",
+    "address": "Main Street 12",
+    "orderValue": 24.90,
+    "deliveryType": "BIKE"
+  },
+  {
+    "customerName": "Sam Taylor",
+    "address": "Park Avenue 8",
+    "orderValue": 59.90,
+    "deliveryType": "CAR"
+  },
+  {
+    "customerName": "Robin Lee",
+    "address": "Pickup Station 3",
+    "orderValue": 14.50,
+    "deliveryType": "PICKUP"
+  }
+]
+
+

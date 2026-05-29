@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Naruto Uzumaki",
+    "team": "Ninjas",
+    "powerLevel": 9000,
+    "attackType": "SPECIAL"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "team": "Strawhats",
+    "powerLevel": 8500,
+    "attackType": "SWORD"
+  },
+  {
+    "name": "Usopp",
+    "team": "Strawhats",
+    "powerLevel": 4000,
+    "attackType": "BOW"
+  }
+]
